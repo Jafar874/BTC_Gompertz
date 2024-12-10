@@ -40,9 +40,9 @@ def model(t, b, c):
     c sets the growth rate
 
     Exponential growth: np.exp(r * t)
-    r sets the growth reate
+    r sets the growth rate
 
-    Bitcoin Gompertz Model: L * np.exp(r * t - b * np.exp(-c * t))
+    Bitcoin Gompertz Model: a * np.exp(r * t - b * np.exp(-c * t))
     Product of the Gompertz function with exponential growth
     a is the estimated world assets in 2009 in USD
     r is estimated as the daily world asset growth between 2009 and 2024
