@@ -50,7 +50,7 @@ def model(t, b, c):
     """
     annual_growth = 0.058 # Estimated annual world asset growth between 2009 and 2024
     r = np.log(1+annual_growth)/365 # daily growth
-    a = 1e7 # Estimated world assets in 2009 in USD
+    a = 1e7 # Estimated world assets per BTC in 2009 in USD
     return a * np.exp(r * t - b * np.exp(-c * t))
 
 
