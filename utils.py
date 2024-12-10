@@ -62,3 +62,7 @@ def log10_transform(func):
         except ValueError as e:
             raise ValueError(f"Error applying np.log10 to the output of {func.__name__}: {e}")
     return wrapper
+
+
+def estimate_adoption(t, b, c):
+    return np.exp(-b*np.exp(-c*t))
