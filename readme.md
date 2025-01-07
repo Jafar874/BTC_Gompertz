@@ -10,7 +10,7 @@ The Bitcoin Gompertz model assumes that the Bitcoin price is influenced by at le
 2. Increasing productivity
 3. The adoption curve
    
-Factors (1) and (2) can be collectively estimated by the growth of global wealth in USD between 2009 and the present, which is approximately 5.8%.
+Factors (1) and (2) can be collectively estimated by the growth of global wealth in USD between 2009 and the present, which is approximately 5.8% per year.
 In addition to this, the adoption curve is modeled using the Gompertz function.
 
 **Bitcoin Price = Global Wealth Increase * Adoption Curve**
