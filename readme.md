@@ -36,3 +36,5 @@ Although halving events are 100% programmatic in Bitcoin, the supply shock after
 This can be explained by the information assymmetry between HODLers and naive market participants.
 In turn, the relative deviation from the predicted price during these halving cycles has observed to become smaller with increasing adoption.
 Future work could extend the model to include boom/bust cycles as a function of bitcoin [adoption](./examples/adoption.ipynb).
+
+This is no financial advice.
